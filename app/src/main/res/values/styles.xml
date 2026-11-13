@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.BookManager" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/page_background</item>
+        <item name="android:statusBarColor">@color/surface</item>
+        <item name="android:navigationBarColor">@color/page_background</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:colorAccent">@color/text_purple</item>
+        <item name="android:textColorPrimary">@color/text_purple</item>
+        <item name="android:textColorSecondary">@color/text_purple_muted</item>
+    </style>
+
+    <style name="BookText">
+        <item name="android:textColor">@color/text_purple</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="BookText.Strong">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="BookText.PageTitle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:accessibilityHeading">true</item>
+    </style>
+
+    <style name="BookText.Caption">
+        <item name="android:textColor">@color/text_purple_muted</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="BookText.Price">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">@drawable/background_purple_pill</item>
+        <item name="android:paddingHorizontal">10dp</item>
+        <item name="android:paddingVertical">4dp</item>
+    </style>
+</resources>
